@@ -1,14 +1,14 @@
-# 🛒 E-Commerce Data Analysis & Sales Forecasting
+#  E-Commerce Data Analysis & Sales Forecasting
 
 A complete **Data Science and Machine Learning project** based on a large-scale e-commerce dataset containing **1M+ records**. The project focuses on data cleaning, exploratory data analysis (EDA), feature engineering, sales analysis, and machine learning-based sales forecasting.
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes historical e-commerce transaction data to identify important trends, patterns, customer behavior, and sales performance.
 
 The main objective is to transform raw e-commerce data into meaningful business insights and develop a machine learning model capable of forecasting sales using historical and engineered features.
 
-## 🎯 Objectives
+## Objectives
 
 * Understand the structure and characteristics of a 1M+ record dataset
 * Clean and preprocess raw e-commerce data
@@ -22,7 +22,7 @@ The main objective is to transform raw e-commerce data into meaningful business 
 * Evaluate model performance
 * Generate actionable business insights
 
-## 📊 Dataset
+##  Dataset
 
 **Dataset:** Global E-Commerce Dataset
 **Records:** 1M+
@@ -48,7 +48,7 @@ The dataset contains information related to:
 
 > The raw large CSV dataset is not included in this GitHub repository because of GitHub's file-size limitations.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Python**
 * **Pandas**
@@ -60,7 +60,7 @@ The dataset contains information related to:
 * **Git & GitHub**
 * **SQL**
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 ```text
 Raw Dataset
@@ -88,7 +88,7 @@ Sales Forecasting
 Business Recommendations
 ```
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 
 The preprocessing stage includes:
 
@@ -102,7 +102,7 @@ The preprocessing stage includes:
 * Removing unnecessary columns
 * Checking outliers and unusual values
 
-## 📈 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 The analysis explores:
 
@@ -121,7 +121,7 @@ The analysis explores:
 
 The analysis showed relatively balanced quarterly sales, with **Q3 having the highest total sales**, followed by Q4, Q2, and Q1.
 
-## ⚙️ Feature Engineering
+##  Feature Engineering
 
 Several time-based and forecasting features were created from the order date, including:
 
@@ -149,7 +149,7 @@ rolling_30
 
 These features capture recent sales behavior and historical trends.
 
-## 🤖 Machine Learning
+##  Machine Learning
 
 A **Random Forest Regressor** was developed for sales forecasting.
 
@@ -177,7 +177,7 @@ The most important forecasting features included:
 
 The results indicate that **recent historical sales behavior is highly influential for forecasting future sales**.
 
-## 📊 Key Insights
+##  Key Insights
 
 Some important findings from the analysis include:
 
@@ -187,7 +187,7 @@ Some important findings from the analysis include:
 * Customer and transaction characteristics provide useful information for predicting sales.
 * Feature engineering significantly improves the usefulness of raw transactional data for machine learning.
 
-## 💡 Business Recommendations
+##  Business Recommendations
 
 Based on the analysis, businesses can:
 
@@ -198,7 +198,7 @@ Based on the analysis, businesses can:
 5. Use forecasting models to support inventory and resource planning.
 6. Continuously update forecasting features as new transactions become available.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 Ecommerce_dataset/
@@ -215,7 +215,7 @@ Ecommerce_dataset/
 
 > The original large dataset is intentionally excluded from the repository.
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repository
 
@@ -250,7 +250,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook ecommerce_2.ipynb
 ```
 
-## 📌 Project Status
+##  Project Status
 
 **Completed**
 
@@ -265,7 +265,7 @@ The project currently includes:
 * Feature importance analysis
 * Business recommendations
 
-## 👨‍💻 Author
+##  Author
 
 **Aizaz Hamza**
 
